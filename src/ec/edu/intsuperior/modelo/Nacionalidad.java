@@ -1,9 +1,9 @@
 package ec.edu.intsuperior.modelo;
 
 public class Nacionalidad {
-  
+
     public static void main(String[] args) {
-           
+
     }
     private String pais;
 

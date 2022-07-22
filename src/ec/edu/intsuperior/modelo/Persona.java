@@ -4,8 +4,9 @@ public class Persona {
 
     private String nombre;
     private String edad;
-    private String nacionalidad; 
-    
+    private int cedula;
+    private String nacionalidad;
+
     public Persona() {
     }
 
@@ -36,9 +37,15 @@ public class Persona {
 
     public void setNacionalidad(String nacionalidad) {
         this.nacionalidad = nacionalidad;
-        
-    }
-    
-}
 
-   
+    }
+
+    public int getCedula() {
+        return cedula;
+    }
+
+    public void setCedula(int cedula) {
+        this.cedula = cedula;
+    }
+
+}

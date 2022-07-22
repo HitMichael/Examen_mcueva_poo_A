@@ -1,9 +1,10 @@
 package ec.edu.intsuperior.modelo;
 
 public class Empleado {
+//@By Michael de la Cueva.
 
     private double sueldo;
-
+    
     public Empleado() {
     }
 
